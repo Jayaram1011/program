@@ -14,3 +14,5 @@ Dinner
 Rice
 Gobi rice
 egg rice
+
+Drinks 
