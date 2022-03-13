@@ -9,3 +9,8 @@ Lunch:
 Meals
 curd rice
 
+Dinner
+
+Rice
+Gobi rice
+egg rice
