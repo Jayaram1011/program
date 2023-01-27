@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>This is details page</h1>
+<table style="width:100%">
+    <tr>
+        <th>User Id</th>
+        <th>Username</th>
+        <th>Login date and Time</th>
+    </tr>
+    {% for details in message %}
+    <tr align="Center">
+        <td>{{userid}}</td>
+        <td>{{username_data}}</td>
+        <td>{{details.timestamp}}</td>
+    </tr>
+    {%endfor%}
+</table>
+<p>Click here to<a href={% url 'logout' %}>Logout</a></p>
+{%endblock%}
