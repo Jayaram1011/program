@@ -1,0 +1,21 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>This is the login page</h1>
+
+        <form action = "{% url 'loginuser'%}" method = "POST">
+            {% csrf_token %}
+            <input type="text" name ="username" placeholder ="Username">
+            <input type="password" name ="password" placeholder ="Password">
+            <input type="submit" value="Login">
+        </form>
+    </body>
+</html>
